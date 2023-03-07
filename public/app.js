@@ -1,10 +1,6 @@
 import { Invoice } from './classes/Invoice.js';
 import { ListTemplate } from './classes/ListTemplate.js';
 import { Payment } from './classes/Payment.js';
-const docs = [];
-docs.push(new Invoice("Aviral", "Fees", 5000));
-docs.push(new Payment("School", "Scholarship", 25000));
-console.log(docs);
 const form = document.querySelector(".new-item-form");
 //inputs
 const typeFinance = document.querySelector("#type");

@@ -3,13 +3,6 @@ import { ListTemplate } from './classes/ListTemplate.js';
 import { Payment } from './classes/Payment.js';
 import { HasFormatter } from './interfaces/HasFormatter.js';
 
-const docs: HasFormatter[] = []
-docs.push(new Invoice("Aviral", "Fees", 5000))
-docs.push(new Payment("School", "Scholarship", 25000))
-
-console.log(docs);
-
-
 const form = document.querySelector(".new-item-form") as HTMLFormElement
 
 //inputs
